@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#content {
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav > .logo {
+    float: left;
+    font: 21px Lato, sans-serif;
+    letter-spacing: 4px;
+    padding: 3px;
+    top: 30px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    background: rgba(189, 66, 0, 0.80);
+    border: solid 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+#nav > .button {
+    float: right;
+    font: 21px Lato, sans-serif;
+    letter-spacing: 4px;
+    padding: 3px;
+    top: 30px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    background: rgba(189, 66, 0, 0.80);
+    border: solid 2px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+#banner {
+    margin-top: 75px;
+}
+
+#banner > #directors {
+    margin-left: 20px;
+    width: 450px;
+    float: left;
+    border: solid 10px rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    -webkit-backface-visibility: hidden;
+    transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+
+#banner > #headline {
+    text-align: center;
+    font: 21px Lato, sans-serif;
+    height: 225px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border: solid 2px rgba(0, 0, 0, 0.7);
+}
+
+#banner > #headline > h1, #banner > #headline > h2 {
+    padding: 5px;
+    position: relative;
+    left: 60px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-right: 120px;
+}
+
+#banner > #headline > h1 {
+    font: 48px Lato, sans-serif;
+    font-weight: 300;
+}
+
+#banner > #headline > h2 {
+    margin-top: -30px;
+    font: 24px Lato, sans-serif;
+    font-weight: 300;
+}
+
+#banner > #headline > input {
+    margin-top: -10px;
+    text-align: center;
+    width: 300px;
+    background: rgba(189, 66, 0, 0.80);
+    border: solid 2px rgba(0, 0, 0, 0.7);
+    font: 24px Lato, sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#banner > #headline > input:hover {
+    background: rgba(189, 66, 0, 0.90);
+}
+
+#summary {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    font: 16px Lato, sans-serif;
+    height: 190px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border: solid 2px rgba(0, 0, 0, 0.7);
+    padding: 30px 40px;
+    font-weight: 300;
+}
+
+span {
+    border-bottom: solid 2px rgba(189, 66, 0, 0.7);
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.6);
+}
+
+#what {
+    float: left;
+    width: 475px;
+    border-right: solid 2px rgba(255, 255, 255, 0.1);
+    text-align: justify;
+    padding-right: 40px;
+    line-height: 25px;
+}
+
+#why {
+    float: right;
+    width: 350px;
+    text-align: justify;
+    line-height: 25px;
+}
