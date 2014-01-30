@@ -29,6 +29,8 @@ body {
 }
 
 #nav > .button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
     float: right;
     font: 21px Lato, sans-serif;
     letter-spacing: 4px;
@@ -41,6 +43,11 @@ body {
     margin-left: 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     font-weight: 400;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 #banner {
@@ -91,20 +98,24 @@ body {
     font-weight: 300;
 }
 
-#banner > #headline > input {
+#banner > #headline > a {
+    padding: 5px;
     margin-top: -10px;
     text-align: center;
     width: 300px;
     background: rgba(189, 66, 0, 0.80);
     border: solid 2px rgba(0, 0, 0, 0.7);
+    color: rgb(0, 0, 0);
     font: 24px Lato, sans-serif;
     font-weight: 300;
     letter-spacing: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
 
-#banner > #headline > input:hover {
+a:hover {
+    cursor: pointer;
     background: rgba(189, 66, 0, 0.90);
 }
 
@@ -113,7 +124,7 @@ body {
     text-align: left;
     font: 16px Lato, sans-serif;
     height: 190px;
-    margin: 30px auto;
+    margin: 30px auto 100px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     border: solid 2px rgba(0, 0, 0, 0.7);
