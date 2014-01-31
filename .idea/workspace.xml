@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76d69748-ddeb-40aa-af73-72e3c6014e81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/art.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/awesomepeople.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/g6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/kevin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/photos/what.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/green.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/background.jpg" afterPath="$PROJECT_DIR$/photos/handsup.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/story.html" afterPath="$PROJECT_DIR$/story.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="76d69748-ddeb-40aa-af73-72e3c6014e81" name="Default" comment="" />
     <ignored path="chtnasp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +86,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-30" />
-    <option name="y" value="76" />
+    <option name="x" value="275" />
+    <option name="y" value="84" />
     <option name="width" value="1400" />
     <option name="height" value="800" />
   </component>
@@ -249,7 +236,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-30" y="76" width="1400" height="800" extended-state="0" />
+    <frame x="275" y="84" width="1400" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
