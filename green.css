@@ -142,7 +142,12 @@ a {
     font-weight: 300;
 }
 
-#banner > #headline > a {
+#call {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#banner > #headline > a, #call > a {
     padding: 5px;
     margin-top: -10px;
     text-align: center;
@@ -156,10 +161,18 @@ a {
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     text-decoration: none;
+
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
 }
 
-#banner > #headline > a:hover {
-    background: rgba(223, 66, 0, 0.90);
+#banner > #headline > a:hover, #call > a:hover{
+    background: rgba(242, 72, 0, 0.73);
 }
 
 #stuff {
@@ -238,4 +251,13 @@ a {
 #block {
     margin-top: 200px;
     height: 200px;
+}
+
+/* --- Story Section -- */
+
+#info {
+    font: 14px Lato, sans-serif;
+    line-height: 40px;
+    width: 800px;
+    text-align: justify;
 }

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d69748-ddeb-40aa-af73-72e3c6014e81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/art.jpg" afterPath="$PROJECT_DIR$/photos/art.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/g6.jpg" afterPath="$PROJECT_DIR$/photos/g6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/green.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/green.css" afterPath="$PROJECT_DIR$/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/story.html" afterPath="$PROJECT_DIR$/story.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chtnasp.iws" />
@@ -30,16 +33,16 @@
       <file leaf-file-name="green.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/green.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="26" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3690">
+            <state line="145" column="18" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="4020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="green.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/green.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="513" selection-end="513" vertical-scroll-proportion="0.31604537" vertical-offset="0" max-vertical-offset="1365">
+            <state line="75" column="130" selection-start="4706" selection-end="4706" vertical-scroll-proportion="0.63209075" vertical-offset="735" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -48,8 +51,11 @@
       <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="33" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="750">
-              <folding />
+            <state line="16" column="14" selection-start="852" selection-end="852" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="585">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,11 +78,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/story.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/green.html" />
         <option value="$PROJECT_DIR$/green.css" />
+        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -155,8 +161,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/photos" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/photos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/photos" />
@@ -238,9 +244,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981844" sideWeight="0.49266863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981844" sideWeight="0.81524926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981844" sideWeight="0.5073314" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981844" sideWeight="0.18475074" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -272,16 +278,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/green.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="25" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/story.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
@@ -293,23 +292,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/green.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="14" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/story.html">
+    <entry file="file://$PROJECT_DIR$/old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="750">
-          <folding />
+        <state line="12" column="31" selection-start="506" selection-end="506" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="945">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="506" selection-end="506" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="945" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
@@ -322,23 +318,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/story.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/green.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3690">
+        <state line="145" column="18" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="4020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/green.html">
+    <entry file="file://$PROJECT_DIR$/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="513" selection-end="513" vertical-scroll-proportion="0.31604537" vertical-offset="0" max-vertical-offset="1365">
+        <state line="16" column="14" selection-start="852" selection-end="852" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="130" selection-start="4706" selection-end="4706" vertical-scroll-proportion="0.63209075" vertical-offset="735" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
