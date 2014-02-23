@@ -61,27 +61,18 @@ $report .= "\n $comments" ;
 
 //mail to lists
 
-$mail->SetFrom('anahm@outlook.com');
+$mail->SetFrom('chtnasp@hcs.harvard.edu');
 
-$mail->AddAddress('anahm@mit.edu');
-$mail->Subject = 'blargl';
-$mail->Body = 'hi my name is ali, sup';
-
-if(!$mail->send()) {
-    echo 'blargl life';
-    echo $mail->ErrorInfo;
-}
-
-
-
-// $to = "chtnasp-$group" ;
-// $to .= "@lists.hcs.harvard.edu" ;
-$to = "alison.nahm@gmail.com";
+$to = "chtnasp-$group" ;
+$to .= "@lists.hcs.harvard.edu" ;
+$mail->AddAddress($to);
 
 $re = "[chtnasp] $group report for $day, $date" ;
-$msg = $report;
+$mail->Subject = $re;
 
-mail ($to, $re, $msg);
+$mail->Body = $report;
+
+$mail->send()
 
 ?>
 
