@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Summary</title>
+</head>
+
+<body>
+    <div>
+        Daily Summary Submission
+    </div>
+    <div>
+        Summaries are due the day that you attend program. The sooner you do it,
+        the fresher the memories will be, and thus the better your summary will
+        be! These should only take about 10-15 minutes to write out, and they
+        are super important to keep all of the counselors in your grade in the
+        loop.
+    </div>
+    <form action="summary_submit.php" method="post">
+        Group: <select name="Group">
+            <option value="g1">G1</option>
+            <option value="g2">G2</option>
+            <option value="g3">G3</option>
+            <option value="g4">G4</option>
+            <option value="g5">G5</option>
+            <option value="g6">G6</option>
+        </select><br>
+
+        Day of the Week: <select name="Day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+        </select><br>
+
+        Date: <input type="text" placeholder="mm/dd"><br>
+
+        Completed By: <input type="text" name="Author"><br>
+
+        Kids Present: <input type="text" name="Kids"><br>
+
+        Counselors Present: <input type="text" name="Cousnelors"><br>
+
+        <br>
+        <div class='question-header'>
+            Meeting Kids
+        </div>
+        <div class='question-sub'>
+            How was meeting up with your kids today? What was it like when you
+            first entered the classroom? Had they already started their
+            homework? Had all mayhem broken loose?
+        </div><br>
+        <textarea name="Meeting"></textarea>
+        <br>
+
+        <div class='question-header'>
+            Homework
+        </div>
+        <div class='question-sub'>
+        Did all of the kids get their homework done? Did anyone have a lot of
+        trouble with their homework? Are there any kids copying other kids'
+        homework?
+        </div><br>
+        <textarea name="Homework"></textarea><br>
+
+        <div class='question-header'>
+            Project
+        </div>
+        <div class='question-sub'>
+            What was project today? What were the materials used? Were the kids
+            engaged? If you could do project again, how would you have done it
+            differently?
+        </div><br>
+        <textarea name="Project"></textarea><br>
+
+        <div class='question-header'>
+            Puddles &amp; Sunshines
+        </div>
+        <div class='question-sub'>
+            How was the day with the kids overall? What went well at program
+            today? What didn't go so hot? What do you want to improve on for
+            next time?
+        </div><br>
+        <textarea name="ProbsGood"></textarea><br>
+
+        <div class='question-header'>
+            Comments, Questions, Warnings
+        </div>
+        <div class='question-sub'>
+            Do you have anything you want counselors on later days of the week
+            to follow-up on? Anything you want to bring up to all of your fellow
+            grade counselors?
+        </div>
+        <textarea name="ProbsGood"></textarea><br>
+
+        <input type="submit" value="Send it away!">
+    </form>
+</body>
+
+</html>
+
+
