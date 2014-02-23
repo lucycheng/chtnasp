@@ -23,7 +23,6 @@ $counselors = $_POST['Counselors'] ;
 $meeting = $_POST['Meeting'] ;
 $homework = $_POST['Homework'] ;
 $project = $_POST['Project'] ;
-$pickup = $_POST['Pickup'] ;
 $goodbad = $_POST['ProbsGood'] ;
 $comments = $_POST['Comments'];
 
@@ -52,8 +51,6 @@ $report .= "\n\n\t\t HOMEWORK" ;
 $report .= "\n $homework" ;
 $report .= "\n\n\t\t PROJECT TIME" ;
 $report .= "\n $project";
-$report .= "\n\n\t\t PICK UP" ;
-$report .= "\n $pickup" ;
 $report .= "\n\n\t\t PROBLEMS & GOOD STUFF" ;
 $report .= "\n $goodbad" ;
 $report .= "\n\n\t\t COMMENTS, SUGGESTIONS" ;
@@ -61,7 +58,7 @@ $report .= "\n $comments" ;
 
 //mail to lists
 
-$mail->SetFrom('chtnasp@hcs.harvard.edu');
+$mail->SetFrom('chtnasp@hcs.harvard.edu', 'CHTNASP-ty');
 
 $to = "chtnasp-$group" ;
 $to .= "@lists.hcs.harvard.edu" ;
