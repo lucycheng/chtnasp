@@ -23,7 +23,6 @@ $counselors = $_POST['Counselors'] ;
 $meeting = $_POST['Meeting'] ;
 $homework = $_POST['Homework'] ;
 $project = $_POST['Project'] ;
-$pickup = $_POST['Pickup'] ;
 $goodbad = $_POST['ProbsGood'] ;
 $comments = $_POST['Comments'];
 
@@ -52,8 +51,6 @@ $report .= "\n\n\t\t HOMEWORK" ;
 $report .= "\n $homework" ;
 $report .= "\n\n\t\t PROJECT TIME" ;
 $report .= "\n $project";
-$report .= "\n\n\t\t PICK UP" ;
-$report .= "\n $pickup" ;
 $report .= "\n\n\t\t PROBLEMS & GOOD STUFF" ;
 $report .= "\n $goodbad" ;
 $report .= "\n\n\t\t COMMENTS, SUGGESTIONS" ;
@@ -61,27 +58,18 @@ $report .= "\n $comments" ;
 
 //mail to lists
 
-$mail->SetFrom('anahm@outlook.com');
+$mail->SetFrom('chtnasp@hcs.harvard.edu', 'CHTNASP-ty');
 
-$mail->AddAddress('anahm@mit.edu');
-$mail->Subject = 'blargl';
-$mail->Body = 'hi my name is ali, sup';
-
-if(!$mail->send()) {
-    echo 'blargl life';
-    echo $mail->ErrorInfo;
-}
-
-
-
-// $to = "chtnasp-$group" ;
-// $to .= "@lists.hcs.harvard.edu" ;
-$to = "alison.nahm@gmail.com";
+$to = "chtnasp-$group" ;
+$to .= "@lists.hcs.harvard.edu" ;
+$mail->AddAddress($to);
 
 $re = "[chtnasp] $group report for $day, $date" ;
-$msg = $report;
+$mail->Subject = $re;
 
-mail ($to, $re, $msg);
+$mail->Body = $report;
+
+$mail->send()
 
 ?>
 
